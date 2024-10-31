@@ -1,3 +1,3 @@
 # Sofwaretechnik-Hausaufgaben
-Gruppe; Ruben Charara
+Gruppe; Ruben Charara, Guiseppe Verdini
 Tutor: Adrian
