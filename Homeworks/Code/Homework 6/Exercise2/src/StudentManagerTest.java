@@ -1,18 +1,13 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.runner.RunWith;
 import org.mockito.Mock;
-import org.mockito.junit.MockitoJUnitRunner;
-import org.mockito.junit.jupiter.MockitoExtension;
+import org.mockito.MockitoAnnotations;
+
 import java.util.List;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
-
-@ExtendWith(MockitoExtension.class)
-
-@RunWith(MockitoJUnitRunner.class)
+import static org.mockito.Mockito.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class StudentManagerTest {
 
@@ -34,6 +29,8 @@ public class StudentManagerTest {
 
     @BeforeEach
     public void setUp() {
+        // Verwende die empfohlene Methode openMocks() statt initMocks()
+        MockitoAnnotations.openMocks(this);
 
         // Verwende direkt Mockito für Mocking
         mockCourse = mock(Course.class);
@@ -49,8 +46,8 @@ public class StudentManagerTest {
         when(mockStudent2.getName()).thenReturn("Bob");
         when(mockStudent2.getMatriculationNumber()).thenReturn("M67890");
 
-        // Konfiguriere mockCourse, um die Gruppen zu simulieren
         when(mockCourse.getExerciseGroups()).thenReturn(List.of(mockGroup1, mockGroup2));
+        when(mockCourse.getId()).thenReturn("mockId");
 
         // Initialisiere StudentManager
         studentManager = new StudentManager(List.of(mockStudent1, mockStudent2), List.of(mockCourse));
@@ -60,11 +57,18 @@ public class StudentManagerTest {
     public void testGenerateStudentDistribution() {
         var result = studentManager.generateStudentDistribution("mockId");
 
-        // Überprüfe die Ergebnisse
-        assert result.containsKey("Group 1");
-        assert result.containsKey("Group 2");
+        Assertions.assertNotNull(result, "Das Ergebnis darf nicht null sein.");
+        assertTrue(result.containsKey("Group 1"), "Die Ergebnisliste sollte 'Group 1' enthalten.");
+        assertTrue(result.containsKey("Group 2"), "Die Ergebnisliste sollte 'Group 2' enthalten.");
+        assertTrue(result.get("Group 1").contains("Alice (M12345)"), "'Group 1' sollte 'Alice (M12345)' enthalten.");
+        assertTrue(result.get("Group 2").contains("Bob (M67890)"), "'Group 2' sollte 'Bob (M67890)' enthalten.");
+    }
 
-        assert result.get("Group 1").contains("Alice (M12345)");
-        assert result.get("Group 2").contains("Bob (M67890)");
+    @Test
+    public void testGenerateStudentDistributionWithInvalidCourseId() {
+        Exception exception = assertThrows(IllegalArgumentException.class,
+            () -> studentManager.generateStudentDistribution("invalidId"));
+
+        assertEquals("Course with ID invalidId not found.", exception.getMessage());
     }
 }
