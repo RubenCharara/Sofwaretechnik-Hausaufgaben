@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="WEB_MODULE" version="4">
+<module type="JAVA_MODULE" version="4">
   <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
     <option name="activeLocationsIds" />
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="mockito.core" level="project" />
     <orderEntry type="library" name="bluecatcode.junit.4.10.extended" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="40aefeb7-6c72-4f76-ae34-65748161ddc8" />
+    <option name="uniqueId" value="24cbe8a7-510b-4cb9-9923-633598da9815" />
   </component>
 </module>
