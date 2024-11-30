@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
-    <option name="activeLocationsIds" />
-  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -10,8 +7,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Exercise 1" />
+    <orderEntry type="library" name="mockito.core" level="project" />
+    <orderEntry type="library" name="bluecatcode.junit.4.10.extended" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="0f2e08cb-c2c2-4f4a-949e-b61a010d5db2" />
+    <option name="uniqueId" value="7294d383-d772-409c-95b7-77c7e2c902d3" />
   </component>
 </module>
