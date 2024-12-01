@@ -1,0 +1,7 @@
+Die Lösung für die Frage in 2b sieht vor, einen Mechanismus zu schaffen, der es ermöglicht, flexibel zwischen Mocks für Unit-Tests und den normalen Objekten für Integrationstests umzuschalten. Dies wird durch die Verwendung einer Factory-Klasse erreicht, die die Abhängigkeiten des StudentManager dynamisch bereitstellt.
+
+Die Factory entscheidet zur Laufzeit, ob Mocks oder echte Objekte verwendet werden sollen. Dazu wird ein Parameter, wie useMocks, genutzt. Ist dieser auf true gesetzt, erstellt die Factory Mock-Objekte mit Mockito. Diese erlauben es, die Methode generateStudentDistribution isoliert zu testen, ohne von anderen Klassen abhängig zu sein. Wird der Parameter auf false gesetzt, erzeugt die Factory stattdessen echte Objekte, um die Methode im Zusammenspiel mit den anderen Klassen zu prüfen.
+
+Um diese Umschaltbarkeit zu ermöglichen, wird Dependency Injection verwendet. Das bedeutet, dass der StudentManager seine Abhängigkeiten – wie Course, ExerciseGroup und Student – über seinen Konstruktor erhält. Dadurch wird der Produktionscode nicht verändert und der Wechsel zwischen Unit- und Integrationstests bleibt sauber und effizient.
+
+Zusätzlich könnte man die Umschaltung durch Umgebungsvariablen oder eine zentrale Konfiguration noch flexibler gestalten. Insgesamt ermöglicht diese Strategie eine saubere Trennung der Tests und erfüllt die Anforderungen von Aufgabe 2b.
