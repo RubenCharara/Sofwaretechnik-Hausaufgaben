@@ -1,32 +1,40 @@
-package com.example.demo;
+package com.example.ha;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class Student {
 
-    static Integer Id;
-    String Name;
-    String matNr;
-    String subject;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id; // Primärschlüssel
 
+    private String name;
 
-    // Getter and Setter for Id
-    public Integer getId() {
-        return Id;
+    private String matNr;
+
+    private String subject;
+
+    // Getter und Setter
+    public  Long getId() {
+        return id;
     }
 
-    public void setId(Integer id) {
-        this.Id = id;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    // Getter and Setter for Name
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        this.Name = name;
+        this.name = name;
     }
 
-    // Getter and Setter for matNr
     public String getMatNr() {
         return matNr;
     }
@@ -35,7 +43,6 @@ public class Student {
         this.matNr = matNr;
     }
 
-    // Getter and Setter for subject
     public String getSubject() {
         return subject;
     }
