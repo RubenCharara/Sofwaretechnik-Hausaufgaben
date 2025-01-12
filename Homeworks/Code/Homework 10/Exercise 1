@@ -4,21 +4,4 @@ Exercise 1. User Storys
 Take your six functional requirements from HW1, transform them into user story format and put
 them into your repository as Github Issues.
 
-(HW1: Exercise 1: Stakeholders
-     a) Identifikation und Einfluss der Stakeholder
-     1. Studierende: Hauptnutzer des Systems. Sie sind direkt betroffen, da sie
-     basierend auf ihren Verfügbarkeiten automatisch Gruppen zugeteilt
-     bekommen.
-     2. Dozierende: Verwenden das System, um Gruppen und Zeitpläne zu erstellen.
-     Sie profitieren durch vereinfachte Verwaltung und fairere Verteilung der
-     Studierenden.
-     3. Systemadministratoren: Sie betreuen das System und sichern den Zugang
-     sowie Datenschutz.
-     4. Übungsgruppenleiter: Sie erhalten durch das System eine gerechte Zuteilung
-     der Studierenden und können effektivere Gruppen planen.
-     5. IT-Abteilung: Verantwortlich für die technische Infrastruktur und Wartung,
-     besonders bei einer Erweiterung für eine größere Anzahl an Studierenden.
-     6. Universitätsleitung: Interessiert an Effizienz, Kosteneinsparung und
-     studentischer Zufriedenheit. Sie können das System universitätsweit
-     ausweiten.)
-
+Siehe in den GitHub Issues
