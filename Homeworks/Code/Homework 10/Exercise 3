@@ -72,20 +72,4 @@ Alle drei Issues passen in den Sprint.
 
 
 f) Verantwortlichkeiten und Fälligkeitsdaten
-
-Task	                                      			  Zuständig	                              Fälligkeitsdatum
-Datenmodell erstellen	                      	  Sara (Datenbank)	                Tag 3
-Algorithmus für Gruppenzuteilung	            	  Tom (Back-End)	                Tag 6
-Front-End für Verfügbarkeiten	                Rajesh (Front-End)	                Tag 5
-API-Schnittstelle für Gruppenzuteilung	  Juan (DevOps)                           Tag 6
-Tests zur Gruppenzuteilung	                               Du und Tom	                              Tag 8
-Front-End für Gruppenregistrierung	  Rajesh	                              Tag 5
-Back-End-Logik zur Prüfung der Gruppengröße	  Tom	                                            Tag 6
-Datenbankerweiterung für Gruppen	  Sara	                                            Tag 4
-Verschlüsselung auswählen	                 Ahmed (Security)	               Tag 2
-Verschlüsselung im Back-End	                 Tom und Ahmed	               Tag 6
-Datenmigration	                                              Sara und Ahmed	               Tag 7
-Verschlüsselungstests	                               Du und Ahmed	               Tag 8
-
-
-
+siehe Bild 'A3 f)'
