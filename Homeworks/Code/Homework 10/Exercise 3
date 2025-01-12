@@ -1,0 +1,88 @@
+a) Priorisierung der offenen Issues mit der MoSCoW-Methode
+Die MoSCoW-Methode (Must-Have, Should-Have, Could-Have, Won’t-Have) priorisiert die Aufgaben mit Blick auf das Sprintziel: Das System für Studierende soll getestet werden können.
+
+Must-Have (M):
+
+Automatische Gruppenzuteilung basierend auf Verfügbarkeit.
+Möglichkeit für Studierende, sich als Gruppe anzumelden.
+Verschlüsselung aller Daten in der Datenbank mit modernsten Standards.
+Should-Have (S):
+
+Dozierende können die maximale Gruppengröße festlegen (Standard: 3).
+Java-Version 21 oder höher (technische Anforderung vom Rechenzentrum).
+Could-Have (C):
+
+Administratoren können Kursdaten aus KLIPS crawlen.
+Won’t-Have (W):
+
+Themen, die nicht direkt mit der Studententestphase zusammenhängen.
+
+
+b) Vorselektion von Issues für das Sprint-Ziel
+Die folgenden Issues tragen direkt zur Vorbereitung des Studententests bei und werden für den Sprint priorisiert:
+
+Automatische Gruppenzuteilung basierend auf Verfügbarkeit (Must-Have).
+
+Möglichkeit für Studierende, sich als Gruppe anzumelden (Must-Have).
+
+Verschlüsselung aller Daten in der Datenbank (Must-Have).
+
+
+c) Aufschlüsselung der ausgewählten Issues in kleinere Tasks
+Issue 1: Automatische Gruppenzuteilung basierend auf Verfügbarkeit
+Task 1: Datenmodell erstellen, um Verfügbarkeiten der Studierenden zu speichern.
+Task 2: Algorithmus entwickeln, der basierend auf Verfügbarkeiten Gruppen erstellt.
+Task 3: Front-End-Komponente zur Eingabe von Verfügbarkeiten implementieren.
+Task 4: API-Schnittstelle für Gruppenzuteilung erstellen.
+Task 5: Tests zur Validierung der Gruppenzuteilung implementieren.
+
+Issue 2: Möglichkeit für Studierende, sich als Gruppe anzumelden
+Task 1: Front-End-Formular zur Gruppenregistrierung erstellen.
+Task 2: Datenmodell für Gruppenanmeldungen erweitern.
+Task 3: Back-End-Logik für die Prüfung der Gruppengröße implementieren.
+Task 4: Gruppenregistrierungen in der Datenbank speichern.
+Task 5: Tests zur Überprüfung der Gruppenregistrierungsfunktion durchführen.
+
+Issue 3: Verschlüsselung aller Daten in der Datenbank
+Task 1: Auswahl einer Verschlüsselungsmethode (z. B. AES256) durch Sicherheitsingenieur.
+Task 2: Datenbanktabellen für Verschlüsselung vorbereiten.
+Task 3: Verschlüsselungslogik im Back-End implementieren.
+Task 4: Migration bestehender Daten in verschlüsselte Form.
+Task 5: Tests zur Sicherstellung der Datenintegrität nach Verschlüsselung.
+
+
+d) Aufwandsschätzung (T-Shirt-Größen)
+Automatische Gruppenzuteilung: Large (L) – komplexer Algorithmus und mehrere Schnittstellen.
+Gruppenanmeldung: Medium (M) – moderater Aufwand, da Erweiterung bestehender Logik.
+Datenbankverschlüsselung: Medium (M) – spezifisch, aber mit klar definierten Aufgaben.
+
+
+e) Finale Entscheidung und Story Point Zuweisung
+Das Team kann pro Sprint 30 Story Points bearbeiten. Story Points basieren auf den T-Shirt-Größen:
+
+Large (L): 13 Punkte.
+Medium (M): 8 Punkte.
+Gesamtschätzung:
+
+Automatische Gruppenzuteilung: 13 Punkte.
+Gruppenanmeldung: 8 Punkte.
+Datenbankverschlüsselung: 8 Punkte.
+Gesamt: 29 Punkte.
+Alle drei Issues passen in den Sprint.
+
+
+f) Verantwortlichkeiten und Fälligkeitsdaten
+
+Task	                                        Zuständig	                              Fälligkeitsdatum
+Datenmodell erstellen	                        Sara (Datenbank)	                      Tag 3
+Algorithmus für Gruppenzuteilung	            Tom (Back-End)	                        Tag 6
+Front-End für Verfügbarkeiten	                Rajesh (Front-End)	                    Tag 5
+API-Schnittstelle für Gruppenzuteilung	      Juan (DevOps)                          	Tag 6
+Tests zur Gruppenzuteilung	                  Du und Tom	                            Tag 8
+Front-End für Gruppenregistrierung	          Rajesh	                                Tag 5
+Back-End-Logik zur Prüfung der Gruppengröße	  Tom	                                    Tag 6
+Datenbankerweiterung für Gruppen	            Sara	                                  Tag 4
+Verschlüsselung auswählen	                    Ahmed (Security)	                      Tag 2
+Verschlüsselung im Back-End	                  Tom und Ahmed	                          Tag 6
+Datenmigration	                              Sara und Ahmed	                        Tag 7
+Verschlüsselungstests	                        Du und Ahmed	                          Tag 8

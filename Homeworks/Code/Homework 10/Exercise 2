@@ -1,0 +1,12 @@
+Exercise 2: Retrospective
+a) Beobachtungen aus dem Burndown-Chart und Issue-Board:
+ 	Der Burndown-Chart zeigt, dass die verbleibende Arbeit nicht kontinuierlich abgenommen hat. Es gab einen deutlichen Rückstand in der Mitte des Sprints.
+ 	Einige Issues sind nicht abgeschlossen, was darauf hindeutet, dass entweder die Arbeitslast unterschätzt wurde oder unvorhergesehene Probleme aufgetreten sind.
+b) Ereignisse aus dem Sprint und ihre zeitliche Einordnung:
+ 	Deprecation von API-Endpunkten: Dies geschah wahrscheinlich zu Beginn des Sprints, da die Arbeit danach langsamer voranging.
+ 	Rework des Gruppenalgorithmus: Dieses Ereignis ereignete sich in der Mitte des Sprints, als ein Rückgang im Burndown-Chart sichtbar ist.
+ 	Timothys Ausscheiden: Wahrscheinlich gegen Ende des Sprints, da die Geschwindigkeit in den letzten Tagen abnahm.
+ 	2 Tage Online-Koordination: Dies könnte in der Mitte des Sprints passiert sein, als die Fortschritte stagnieren.
+c) Umgang mit Issue #1:
+ 	Issue #1 sollte im nächsten Sprint priorisiert werden, indem das Problem in kleinere Teilaufgaben zerlegt wird. Es könnte auch sinnvoll sein, zusätzliche Ressourcen (größeres Team, bessere und schnellere Geräte) zuzuweisen.
+

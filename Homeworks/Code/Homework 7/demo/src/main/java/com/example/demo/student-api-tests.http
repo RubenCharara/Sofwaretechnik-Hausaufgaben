@@ -1,0 +1,21 @@
+
+//    ### GET request to example server
+//GET https://examples.http-client.intellij.net/get
+  //  ?generated-in=IntelliJ IDEA
+
+### Get Student by ID
+GET http://localhost:8080/student?id=1
+
+### Add New Student
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{
+  "name": "Max Mustermann",
+  "matNr": "123456",
+  "subject": "Informatik"
+}
+
+### Delete Student
+DELETE http://localhost:8080/student?id=1
+###
