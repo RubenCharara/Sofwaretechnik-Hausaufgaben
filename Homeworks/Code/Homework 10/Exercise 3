@@ -2,16 +2,15 @@ a) Priorisierung der offenen Issues mit der MoSCoW-Methode
 Die MoSCoW-Methode (Must-Have, Should-Have, Could-Have, Won’t-Have) priorisiert die Aufgaben mit Blick auf das Sprintziel: Das System für Studierende soll getestet werden können.
 
 Must-Have (M):
-
 Automatische Gruppenzuteilung basierend auf Verfügbarkeit.
 Möglichkeit für Studierende, sich als Gruppe anzumelden.
 Verschlüsselung aller Daten in der Datenbank mit modernsten Standards.
-Should-Have (S):
 
+Should-Have (S):
 Dozierende können die maximale Gruppengröße festlegen (Standard: 3).
 Java-Version 21 oder höher (technische Anforderung vom Rechenzentrum).
-Could-Have (C):
 
+Could-Have (C):
 Administratoren können Kursdaten aus KLIPS crawlen.
 Won’t-Have (W):
 
