@@ -5,10 +5,10 @@ Must-Have (M):
 Automatische Gruppenzuteilung basierend auf Verfügbarkeit.
 Möglichkeit für Studierende, sich als Gruppe anzumelden.
 Verschlüsselung aller Daten in der Datenbank mit modernsten Standards.
+Java-Version 21 oder höher (technische Anforderung vom Rechenzentrum).
 
 Should-Have (S):
 Dozierende können die maximale Gruppengröße festlegen (Standard: 3).
-Java-Version 21 oder höher (technische Anforderung vom Rechenzentrum).
 
 Could-Have (C):
 Administratoren können Kursdaten aus KLIPS crawlen.
