@@ -64,13 +64,15 @@ Das Team kann pro Sprint 30 Story Points bearbeiten. Story Points basieren auf d
 
 Large (L): 13 Punkte.
 Medium (M): 8 Punkte.
+Small (S) : 1 Punkt.
 Gesamtschätzung:
 
 Automatische Gruppenzuteilung: 13 Punkte.
 Gruppenanmeldung: 8 Punkte.
 Datenbankverschlüsselung: 8 Punkte.
-Gesamt: 29 Punkte.
-Alle drei Issues passen in den Sprint.
+Java-Version 21 : 1 Punkt.
+Gesamt: 30 Punkte.
+Alle vier Issues passen in den Sprint.
 
 
 f) Verantwortlichkeiten und Fälligkeitsdaten
