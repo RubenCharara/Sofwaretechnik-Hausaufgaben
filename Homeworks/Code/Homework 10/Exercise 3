@@ -51,7 +51,10 @@ Task 4: Migration bestehender Daten in verschlüsselte Form.
 Task 5: Tests zur Sicherstellung der Datenintegrität nach Verschlüsselung.
 
 Issue 4: Java-Version 21 oder höher
-
+Task 1: Überprüfen ob die Java Version schon 21 ist
+Task 2: Falls eine älter Version genutzt wird, Kompatibilität zu Java 21 prüfen 
+Task 3: Auf Java 21 Updaten
+Task 4: Prüfen ob das Update erforderlich war (die neu Entwicklungseben Java21 ist und alles noch funktioniert/kompatibel war ) 
 
 d) Aufwandsschätzung (T-Shirt-Größen)
 Automatische Gruppenzuteilung: Large (L) – komplexer Algorithmus und mehrere Schnittstellen.
