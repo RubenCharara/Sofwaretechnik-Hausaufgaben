@@ -26,6 +26,7 @@ Möglichkeit für Studierende, sich als Gruppe anzumelden (Must-Have).
 
 Verschlüsselung aller Daten in der Datenbank (Must-Have).
 
+Java-Version 21 oder höher (Must-Have, technische Anforderung).
 
 c) Aufschlüsselung der ausgewählten Issues in kleinere Tasks
 Issue 1: Automatische Gruppenzuteilung basierend auf Verfügbarkeit
@@ -49,12 +50,14 @@ Task 3: Verschlüsselungslogik im Back-End implementieren.
 Task 4: Migration bestehender Daten in verschlüsselte Form.
 Task 5: Tests zur Sicherstellung der Datenintegrität nach Verschlüsselung.
 
+Issue 4: Java-Version 21 oder höher
+
 
 d) Aufwandsschätzung (T-Shirt-Größen)
 Automatische Gruppenzuteilung: Large (L) – komplexer Algorithmus und mehrere Schnittstellen.
 Gruppenanmeldung: Medium (M) – moderater Aufwand, da Erweiterung bestehender Logik.
 Datenbankverschlüsselung: Medium (M) – spezifisch, aber mit klar definierten Aufgaben.
-
+Java-Version 21 oder höher: Small (S) – kleinere Techniche Anforderung 
 
 e) Finale Entscheidung und Story Point Zuweisung
 Das Team kann pro Sprint 30 Story Points bearbeiten. Story Points basieren auf den T-Shirt-Größen:
