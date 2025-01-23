@@ -1,0 +1,106 @@
+a) Priorisierung der offenen Issues mit der MoSCoW-Methode
+Die MoSCoW-Methode (Must-Have, Should-Have, Could-Have, Won’t-Have) priorisiert die Aufgaben mit Blick auf das Sprintziel: Das System für Studierende soll getestet werden können.
+
+Must-Have (M):
+
+Möglichkeit für Studierende, sich als Gruppe anzumelden.
+Verschlüsselung aller Daten in der Datenbank mit modernsten Standards.
+Java-Version 21 oder höher (technische Anforderung vom Rechenzentrum).
+Dozierende können Kurse erstellen.
+Studierende können sich mit ihrem Shibboleth-Konto anmelden.
+
+
+Should-Have (S):
+Dozierende können die maximale Gruppengröße festlegen (Standard: 3).
+Benachrichtigung bei Konflikten.
+Übersicht der Übungsverteilung erstellen.
+
+Could-Have (C):
+Administratoren können Kursdaten aus KLIPS crawlen.
+
+Won’t-Have (W):
+Themen, die nicht direkt mit der Studententestphase zusammenhängen.
+
+
+b) Vorselektion von Issues für das Sprint-Ziel
+Die folgenden Issues tragen direkt zur Vorbereitung des Studententests bei und werden für den Sprint priorisiert:
+
+Automatische Gruppenzuteilung basierend auf Verfügbarkeit (Must-Have).
+Möglichkeit für Studierende, sich als Gruppe anzumelden (Must-Have).
+Verschlüsselung aller Daten in der Datenbank (Must-Have).
+Java-Version 21 oder höher (Must-Have, technische Anforderung).
+Dozierende können Kurse erstellen(Must-Have).
+Studierende können sich mit ihrem Shibboleth-Konto anmelden(Must-Have).
+
+
+c) Aufschlüsselung der ausgewählten Issues in kleinere Tasks
+
+Issue 1: Möglichkeit für Studierende, sich als Gruppe anzumelden
+Task 1: Front-End-Formular zur Gruppenregistrierung erstellen.
+Task 2: Datenmodell für Gruppenanmeldungen erweitern.
+Task 3: Back-End-Logik für die Prüfung der Gruppengröße implementieren.
+Task 4: Gruppenregistrierungen in der Datenbank speichern.
+Task 5: Tests zur Überprüfung der Gruppenregistrierungsfunktion durchführen.
+
+Issue 2: Verschlüsselung aller Daten in der Datenbank
+Task 1: Auswahl einer Verschlüsselungsmethode (z. B. AES256) durch Sicherheitsingenieur.
+Task 2: Datenbanktabellen für Verschlüsselung vorbereiten.
+Task 3: Verschlüsselungslogik im Back-End implementieren.
+Task 4: Migration bestehender Daten in verschlüsselte Form.
+Task 5: Tests zur Sicherstellung der Datenintegrität nach Verschlüsselung.
+
+Issue 3: Java-Version 21 oder höher
+Task 1: Überprüfen ob die Java Version schon 21 ist
+Task 2: Falls eine älter Version genutzt wird, Kompatibilität zu Java 21 prüfen 
+Task 3: Auf Java 21 Updaten
+Task 4: Prüfen ob das Update erforderlich war (die neu Entwicklungseben Java21 ist und alles noch funktioniert/kompatibel war)
+
+Issue 4: Dozierende können Kurse erstellen
+Task 1: Back-End-Modell für Kurse erstellen.
+Task 2: API-Endpunkte für Kursverwaltung entwickeln.
+Task 3: Front-End-Formular für die Kurserstellung implementieren.
+Task 4: Validierungsregeln für Kurse einbauen.
+Task 5: Tests für Kursverwaltung erstellen.
+
+Issue 5: Studierende können sich mit ihrem Shibboleth-Konto anmelden
+Task 1: Shibboleth-Integration analysieren und konfigurieren.
+Task 2: Front-End für die Shibboleth-Login-Seite erstellen.
+Task 3: Authentifizierungslogik im Back-End integrieren.
+Task 4: Tests zur Sicherstellung der Shibboleth-Integration durchführen.
+Task 5: Dokumentation der Integration erstellen.
+
+d) Aufwandsschätzung (T-Shirt-Größen)
+
+Gruppenanmeldung: Medium (M) – moderater Aufwand, da Erweiterung bestehender Logik.
+Datenbankverschlüsselung: Medium (M) – spezifisch, aber mit klar definierten Aufgaben.
+Java-Version 21 oder höher: Small (S) – kleinere Techniche Anforderung 
+Dozierende können Kurse erstellen: Medium (M) 
+Studierende können sich mit ihrem Shibboleth-Konto anmelden: Medium (M) 
+
+e) Finale Entscheidung und Story Point Zuweisung
+Das Team kann pro Sprint 30 Story Points bearbeiten. Story Points basieren auf den T-Shirt-Größen:
+
+Medium (M): 8 Punkte.
+Small (S) : 2 Punkt.
+Gesamtschätzung:
+
+Verschlüsselung aller Daten in der Datenbank: Medium (M) – 8 Punkte.
+Möglichkeit für Studierende, sich als Gruppe anzumelden: Medium (M) – 8 Punkte.
+Java-Version 21 oder höher: Small (S) – 2 Punkte.
+Dozierende können Kurse erstellen: Medium (M) – 8 Punkte.
+Studierende können sich mit ihrem Shibboleth-Konto anmelden: Medium (M) – 8 Punkte.
+
+Gesamt: 34 Punkte.
+
+Da wir mehr als 30 Storypoints haben, muss neu priorisiert werden 
+
+    Verschlüsselung aller Daten in der Datenbank (8 Punkte).
+    Möglichkeit für Studierende, sich als Gruppe anzumelden (8 Punkte).
+    Java-Version 21 oder höher (2 Punkte).
+    Studierende können sich mit ihrem Shibboleth-Konto anmelden (8 Punkte).
+
+Gesamt: 26 Punkte. Die Issue "Dozierende können Kurse erstellen" (8 Punkte) wird auf den nächsten Sprint verschoben.
+
+
+f) Verantwortlichkeiten und Fälligkeitsdaten
+siehe Bild 'A3 f)'
